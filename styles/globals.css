@@ -1,0 +1,34 @@
+html,
+body {
+  @apply font-default bg-slate-700 bg-[url('https://cdn.discordapp.com/attachments/931670728535867433/942765186446659654/unknown.png')] h-screen bg-cover bg-center;
+}
+a {
+  color: inherit;
+  @apply no-underline;
+}
+
+* {
+  @apply box-border;
+}
+::-webkit-scrollbar {
+  @apply hidden;
+}
+::-webkit-scrollbar-button {
+  @apply hidden;
+}
+::-webkit-scrollbar-track {
+  @apply hidden;
+}
+::-webkit-scrollbar-track-piece {
+  @apply hidden;
+}
+::-webkit-scrollbar-thumb {
+  @apply hidden;
+}
+::-webkit-scrollbar-corner {
+  @apply hidden;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
